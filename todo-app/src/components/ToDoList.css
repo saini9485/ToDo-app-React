@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+  
+  
+  h1{
+      background-color: rgb(0, 234, 255);
+      text-align: center;
+      border-radius: 15px
+      ;
+  }
+  .toDosMain{
+       height: 100%;
+      padding: 20px;
+      font-size: 20px;
+       align-items: center;
+       width: 40rem;
+       background-color: rgb(174, 43, 170);
+       height: 400px;
+       border: 2px solid rgb(0, 255, 21);
+       padding: 50px;
+       border-radius: 20px;
+       box-shadow: 2px 2px 10px;
+       margin: 30px;
+       overflow-y: scroll;
+  }
+  .card::-webkit-scrollbar {
+    display: none;
+  }
+  
+  input {
+      
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      margin-left: 5rem;
+      width: 12rem;
+      font-size: larger;
+    }
+    
+    .AddBtn {
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: rgb(40, 3, 245);
+      color: white;
+      margin-left: 3rem;
+    } 
+    .EditBtn{
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+      margin: 0 5px;
+      background-color: rgb(8, 243, 94);
+      color: white;
+    }
+    .DeleteBtn{
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+      margin: 0 5px;
+      background-color: red;
+      color: white;
+    }
+    .ToDos-Area{
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      margin-left: 5.5rem;
+    }
+  
+    .input_field{
+      background-color: aliceblue;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 6px;
+    box-shadow: 0.2px 0.3px 4px;
+    width: 12rem;
+    }
