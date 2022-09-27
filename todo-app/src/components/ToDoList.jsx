@@ -16,10 +16,7 @@ export const ToDoList = () => {
    
   };
 
-  // function handleEditInputChange(e) {
-  //   settoDo({ ...settoDo, text: e.target.value });
-  //   console.log(toDo);
-  // }
+  
 
   // const editTodo = (id) => {
   //   // let newTodo = settoDo([...toDo, toDos]);
